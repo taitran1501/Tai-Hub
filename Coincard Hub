@@ -1,0 +1,26 @@
+Config = {
+    namescript = "Con Cak",
+    logoscript = "15730996481",
+    tacgia = "aa"
+}
+local UserInputService = game:GetService("UserInputService")
+local RunService = game:GetService("RunService")
+local Players = game:GetService("Players")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local Settings = {
+    UpV4 = true;
+}
+
+local UserInputService = game:GetService("UserInputService")
+local function upV4()
+    if Settings.UpV4 then
+        -- mã script để lên V4
+    end
+end
+
+UserInputService.InputBegan:Connect(function(input)
+    if input.KeyCode == Enum.KeyCode.U then
+        upV4()
+    end
+end)
